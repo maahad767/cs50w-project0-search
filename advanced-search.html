@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav">
+        <ul>
+          <li><a href="index.html">Search</a></li>
+          <li><a href="image-search.html">Image Search</a></li>
+        </ul>
+      </div>
+      <div class="search-box-container">
+        <form action="https://google.com/search">
+          <h1 class="title">Advanced Search (Google)</h1>
+          <h2 class="sub-title">Find pages with...</h2>
+          <div class="form-field">
+            <label for="all_these_words">all these words: </label>
+            <input id="all_these_words" type="text" name="as_q" />
+          </div>
+          <div class="form-field">
+            <label for="all_these_words">this exact word or phrase: </label>
+            <input id="all_these_words" type="text" name="as_epq" />
+          </div>
+          <div class="form-field">
+            <label for="all_these_words">any of these words: </label>
+            <input id="all_these_words" type="text" name="as_oq" />
+          </div>
+          <div class="form-field">
+            <label for="all_these_words">none of these words: </label>
+            <input id="all_these_words" type="text" name="as_eq" />
+          </div>
+        <div class="d-flex justify-end">
+            <input id="CIGjud" name="tbs" type="hidden" value="">
+            <input id="advanced-search" type="submit" value="Search" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
